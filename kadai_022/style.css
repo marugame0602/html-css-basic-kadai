@@ -61,8 +61,9 @@ img{
 }
 
 footer{
-  background-color: rgb(255,255,255);
-
+  display: flex;
+  justify-content: center;
+  background-color: rgb(244,79,79);
 }
 
 a:visited{
@@ -76,6 +77,6 @@ a:hover{
 @media screen and(min-width:768px) {
   h2{font-size: 30px;}
   p{font-size: 25px;}
-  #parent{display:block}
+  #parent{display:column}
   
 }
